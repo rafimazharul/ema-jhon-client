@@ -1,0 +1,44 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 50px;
+}
+.btn-proceed{
+    width: 90%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    border-radius: 4px;
+    background-color: #FF9900;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.proceed-link{
+    text-decoration: none;
+}
+.pagination{
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.pagination button{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination .selected{
+    background-color: #FF9900;
+}
